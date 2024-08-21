@@ -1,0 +1,34 @@
+# Compiled output
+/target/
+**/*.rs.bk
+
+# Rust/Cargo
+Cargo.lock
+Cargo.toml.orig
+
+# DFX/ICP
+/.dfx/
+/canister_ids.json
+
+# VSCode-specific settings
+.vscode/
+/.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Logs
+**/*.log
+
+# Temporary files
+/tmp/
+**/*~
+
+# Ignore backups and caches
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Ignore node_modules (if frontend is integrated)
+node_modules/
